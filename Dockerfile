@@ -3,7 +3,7 @@ FROM python:3
 WORKDIR /data
 
 RUN pip install django==3.2
-RUN apt-get update && apt-get install -y python3-distutils
+RUN apt-get update && apt-get install -y python3-stdlib
 
 COPY . .
 
