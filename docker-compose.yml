@@ -1,7 +1,7 @@
 version : "3.3"
 services :
   web :
-     build : .
+     image : "vinay526/notes-app:latest"
      ports :
          - "8000:8000"
      volumes:
